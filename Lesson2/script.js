@@ -76,3 +76,11 @@ if (appData.moneyPerDay < 100) {
 } else {
 	console.log('Произошла ошибка');
 }
+
+function showFirstMessage (text) {
+	alert (text);
+}
+ showFirstMessage('Hello World');
+
+
+
